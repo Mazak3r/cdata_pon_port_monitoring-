@@ -61,3 +61,13 @@ here
 ├── port_onu_counts.json        # Peak ONU counts observed per port (auto-generated)
 ├── olt_state.json              # Reachability state cache (auto-generated)
 └── requirements.txt            # Python runtime dependencies
+
+
+
+Prerequisites
+Python 3.9+
+
+Network connectivity (ICMP Ping + TCP Port 23 Telnet) from the monitor host to all target OLT management interfaces.
+
+Required Python Libraries
+Create a requirements.txt file with the following dependencies:

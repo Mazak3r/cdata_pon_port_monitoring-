@@ -45,3 +45,19 @@ here
                   ┌─────────────────────────────────────────┐
                   │         Streamlit Web Dashboard         │
                   └─────────────────────────────────────────┘
+
+
+
+---
+
+## Directory Structure
+
+```text
+.
+├── main.py                     # Main application script (Engine & UI)
+├── config.json                 # OLT IP, credentials, & monitoring settings
+├── down_ports.json             # Active port & OLT outage tracking (auto-generated)
+├── onu_registry.json           # Persistent ONU inventory registry (auto-generated)
+├── port_onu_counts.json        # Peak ONU counts observed per port (auto-generated)
+├── olt_state.json              # Reachability state cache (auto-generated)
+└── requirements.txt            # Python runtime dependencies

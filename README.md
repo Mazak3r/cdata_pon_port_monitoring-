@@ -71,3 +71,12 @@ Network connectivity (ICMP Ping + TCP Port 23 Telnet) from the monitor host to a
 
 Required Python Libraries
 Create a requirements.txt file with the following dependencies:
+
+
+Prerequisites
+Python 3.9+
+
+Network connectivity (ICMP Ping + TCP Port 23 Telnet) from the monitor host to all target OLT management interfaces.
+
+Required Python Libraries
+Create a requirements.txt file with the following dependencies:
